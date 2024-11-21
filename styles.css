@@ -1,0 +1,86 @@
+/* Estilos generales */
+body {
+    background-color: #121212; 
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0;
+    padding: 20px;
+    text-align: center; 
+}
+
+header {
+    background-color: #4a148c; 
+    padding: 20px;
+    border-bottom: 2px solid #7b1fa2; 
+}
+
+h1 {
+    color: white; 
+    font-size: 40px;
+    margin: 0; 
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+nav a {
+    color: #e0e0e0; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    color: #ba68c8;
+    transform: scale(1.1); /* Con esto aumento el elemento al poner el ratón encima */
+}
+
+main {
+    margin: 20px 0; 
+}
+
+h2 {
+    color: #ba68c8;
+    margin: 20px 0;
+}
+
+p {
+    color: #e0e0e0; 
+    font-size: 17px;
+    margin: 10px 0; 
+}
+
+footer {
+    margin-top: 20px;
+    color: #e0e0e0;
+    font-size: 12px;
+    border-top: 1px solid #7b1fa2;
+    padding-top: 10px;
+}
+
+
+button {
+    background-color: #4a148c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #7b1fa2;
+    transform: scale(1.05); /* Con esto aumento el elemento al poner el ratón encima */
+}
